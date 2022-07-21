@@ -2,7 +2,8 @@
 Spring boot comes with embedded ActiveMQ similar to tomcat, so you don’t have to create external ActiveMQ.
 
 If you want to use external activemq, just use below application.properties
-	- spring.activemq.broker-url=tcp://localhost:61616
+	
+	spring.activemq.broker-url=tcp://localhost:61616
 	
 Please note that you just need to provide ActiveMQ broker url, if you specify above property then Spring boot won’t create another in memory embedded ActiveMQ.
 
